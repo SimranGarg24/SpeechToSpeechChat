@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1B760362B047FEC0052CDBD /* AdvancedChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B760352B047FEC0052CDBD /* AdvancedChatApp.swift */; };
+		B1B760382B047FEC0052CDBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B760372B047FEC0052CDBD /* ContentView.swift */; };
+		B1B7603A2B047FEF0052CDBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B760392B047FEF0052CDBD /* Assets.xcassets */; };
+		B1B7603D2B047FEF0052CDBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B7603C2B047FEF0052CDBD /* Preview Assets.xcassets */; };
+		B1B760442B0480160052CDBD /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B760432B0480160052CDBD /* SpeechRecognizer.swift */; };
+		B1B760462B0480300052CDBD /* OpenAIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B760452B0480300052CDBD /* OpenAIManager.swift */; };
+		B1B7604B2B0480AE0052CDBD /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B7604A2B0480AE0052CDBD /* ContentViewModel.swift */; };
+		B1B760502B04B64F0052CDBD /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = B1B7604F2B04B64F0052CDBD /* OpenAI */; };
+		B1E037F12B04D51500C98CBB /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E037F02B04D51500C98CBB /* DotView.swift */; };
+		B1E037F32B04D54700C98CBB /* ThreeBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E037F22B04D54700C98CBB /* ThreeBounceAnimation.swift */; };
+		B1E037F72B04DCA600C98CBB /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E037F62B04DCA600C98CBB /* LineView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1B760322B047FEC0052CDBD /* AdvancedChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B760352B047FEC0052CDBD /* AdvancedChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedChatApp.swift; sourceTree = "<group>"; };
+		B1B760372B047FEC0052CDBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1B760392B047FEF0052CDBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1B7603C2B047FEF0052CDBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1B760432B0480160052CDBD /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		B1B760452B0480300052CDBD /* OpenAIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIManager.swift; sourceTree = "<group>"; };
+		B1B7604A2B0480AE0052CDBD /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		B1E037F02B04D51500C98CBB /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		B1E037F22B04D54700C98CBB /* ThreeBounceAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBounceAnimation.swift; sourceTree = "<group>"; };
+		B1E037F62B04DCA600C98CBB /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1B7602F2B047FEC0052CDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B760502B04B64F0052CDBD /* OpenAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1B760292B047FEC0052CDBD = {
+			isa = PBXGroup;
+			children = (
+				B1B760342B047FEC0052CDBD /* AdvancedChat */,
+				B1B760332B047FEC0052CDBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1B760332B047FEC0052CDBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1B760322B047FEC0052CDBD /* AdvancedChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1B760342B047FEC0052CDBD /* AdvancedChat */ = {
+			isa = PBXGroup;
+			children = (
+				B1B760352B047FEC0052CDBD /* AdvancedChatApp.swift */,
+				B1B760452B0480300052CDBD /* OpenAIManager.swift */,
+				B1B760432B0480160052CDBD /* SpeechRecognizer.swift */,
+				B1B7604A2B0480AE0052CDBD /* ContentViewModel.swift */,
+				B1B760372B047FEC0052CDBD /* ContentView.swift */,
+				B1E037F02B04D51500C98CBB /* DotView.swift */,
+				B1E037F62B04DCA600C98CBB /* LineView.swift */,
+				B1E037F22B04D54700C98CBB /* ThreeBounceAnimation.swift */,
+				B1B760392B047FEF0052CDBD /* Assets.xcassets */,
+				B1B7603B2B047FEF0052CDBD /* Preview Content */,
+			);
+			path = AdvancedChat;
+			sourceTree = "<group>";
+		};
+		B1B7603B2B047FEF0052CDBD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1B7603C2B047FEF0052CDBD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1B760312B047FEC0052CDBD /* AdvancedChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B760402B047FEF0052CDBD /* Build configuration list for PBXNativeTarget "AdvancedChat" */;
+			buildPhases = (
+				B1B7602E2B047FEC0052CDBD /* Sources */,
+				B1B7602F2B047FEC0052CDBD /* Frameworks */,
+				B1B760302B047FEC0052CDBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvancedChat;
+			packageProductDependencies = (
+				B1B7604F2B04B64F0052CDBD /* OpenAI */,
+			);
+			productName = AdvancedChat;
+			productReference = B1B760322B047FEC0052CDBD /* AdvancedChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1B7602A2B047FEC0052CDBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B1B760312B047FEC0052CDBD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B1B7602D2B047FEC0052CDBD /* Build configuration list for PBXProject "AdvancedChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1B760292B047FEC0052CDBD;
+			packageReferences = (
+				B1B7604E2B04B64F0052CDBD /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
+			productRefGroup = B1B760332B047FEC0052CDBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1B760312B047FEC0052CDBD /* AdvancedChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1B760302B047FEC0052CDBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B7603D2B047FEF0052CDBD /* Preview Assets.xcassets in Resources */,
+				B1B7603A2B047FEF0052CDBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1B7602E2B047FEC0052CDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B760382B047FEC0052CDBD /* ContentView.swift in Sources */,
+				B1B760462B0480300052CDBD /* OpenAIManager.swift in Sources */,
+				B1E037F32B04D54700C98CBB /* ThreeBounceAnimation.swift in Sources */,
+				B1E037F12B04D51500C98CBB /* DotView.swift in Sources */,
+				B1E037F72B04DCA600C98CBB /* LineView.swift in Sources */,
+				B1B760362B047FEC0052CDBD /* AdvancedChatApp.swift in Sources */,
+				B1B760442B0480160052CDBD /* SpeechRecognizer.swift in Sources */,
+				B1B7604B2B0480AE0052CDBD /* ContentViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1B7603E2B047FEF0052CDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1B7603F2B047FEF0052CDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1B760412B047FEF0052CDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdvancedChat/Preview Content\"";
+				DEVELOPMENT_TEAM = LPRPC642LQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your speech will be detected after tapping the start button";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can ask anything without the need of writing in the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chicmic.AdvancedChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B1B760422B047FEF0052CDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdvancedChat/Preview Content\"";
+				DEVELOPMENT_TEAM = LPRPC642LQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your speech will be detected after tapping the start button";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can ask anything without the need of writing in the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chicmic.AdvancedChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1B7602D2B047FEC0052CDBD /* Build configuration list for PBXProject "AdvancedChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B7603E2B047FEF0052CDBD /* Debug */,
+				B1B7603F2B047FEF0052CDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B760402B047FEF0052CDBD /* Build configuration list for PBXNativeTarget "AdvancedChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B760412B047FEF0052CDBD /* Debug */,
+				B1B760422B047FEF0052CDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1B7604E2B04B64F0052CDBD /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1B7604F2B04B64F0052CDBD /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1B7604E2B04B64F0052CDBD /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B1B7602A2B047FEC0052CDBD /* Project object */;
+}
